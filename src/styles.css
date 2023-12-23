@@ -3,21 +3,16 @@
 @tailwind utilities;
 
 @layer base {
-<<<<<<< HEAD
 
     h1 {
-        @apply text-6xl;
+        @apply text-3xl;
+    }
+
+    h2 {
+        @apply text-2xl;
+    }
+
+    h3 {
+        @apply text-xl;
     }
 }
-=======
-  h1 {
-    @apply text-3xl;
-  }
-  h2 {
-    @apply text-2xl;
-  }
-  h3 {
-    @apply text-xl;
-  }
-}
->>>>>>> a7ab8d791b4fe6d8a9434f53d25e75f02f9b620c
