@@ -1,0 +1,19 @@
+.header {
+    background-color: rgb(48, 165, 42);
+    /* color: white; */
+    height: 50px;
+    /* line-height: 50px; */
+}
+
+.header h1 {
+    float: left;
+}
+
+.header ul {
+    float: right;
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}

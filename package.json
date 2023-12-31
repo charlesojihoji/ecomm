@@ -28,10 +28,7 @@
     "@angular/compiler-cli": "^17.0.0",
     "@types/jasmine": "~5.1.0",
     "autoprefixer": "^10.4.16",
-<<<<<<< HEAD
-=======
     "daisyui": "^4.4.23",
->>>>>>> a7ab8d791b4fe6d8a9434f53d25e75f02f9b620c
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
