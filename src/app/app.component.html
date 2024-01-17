@@ -1,16 +1,2 @@
 <app-header></app-header>
-<div class="container mx-auto">
-  <h1>Hello {{ title }}</h1>
-  <button class="btn btn-primary" (click)="changeTitle()">Change Name</button>
-  <hr>
-  <div class="card">
-    <div class="card-body text-center">
-      <h2>Counter: {{ counter }}</h2>
-      <div>
-        <button class="btn btn-primary" (click)="increment()">Increment</button>
-        <button class="btn btn-primary" (click)="decrement()">Decrement</button>
-        <button class="btn btn-primary" (click)="reset()">Reset</button>
-      </div>
-    </div>
-  </div>
-</div>
+<router-outlet></router-outlet>
