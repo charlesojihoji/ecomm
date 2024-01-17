@@ -11,11 +11,13 @@ import { HeaderComponent } from './common/header/header.component';
   styleUrl: './app.component.css'
 } )
 export class AppComponent {
-  title = 'EmpApp';
+  title = 'Smith';
   counter = 0;
 
   changeTitle () {
-    this.title = "Changed Title";
+
+    this.title = ( this.title == 'Smith' ) ? 'Susan' : 'Smith';
+
   }
 
   increment () {
